@@ -21,7 +21,7 @@ audio.addEventListener('ended', () => {
 // begin Fetching .md file
 async function fetchMarkdownFile() {
   try {
-    const response = await fetch('https://files.catbox.moe/vkw82b.md');
+    const response = await fetch('https://files.catbox.moe/meq9er.md');
     if (!response.ok) throw new Error('Dosya bulunamadı.');
     return await response.text();
   } catch (error) {
